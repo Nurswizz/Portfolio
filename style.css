@@ -1,0 +1,21 @@
+.start
+{
+    color: aliceblue;
+    margin-left: 127px;
+    margin-top: 309px;
+    font-size: 100px;
+}
+.about
+{
+    color: aliceblue;
+    text-align: left;
+    margin-left: 127px;
+    margin-top: -46px;
+    font-size: 30px;
+    word-wrap: break-word;
+    padding-right: 250px;
+}
+body
+{
+    background-color: #111111;
+}
