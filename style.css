@@ -1,19 +1,51 @@
+.text
+{
+    padding-left: 127px;
+    padding-top: 150px;
+}
+a
+{
+    margin-right: 49px;
+}
+.header
+{
+    padding-left: 127px;
+    padding-top: 59px;
+    color:aliceblue;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
 .start
 {
     color: aliceblue;
-    margin-left: 127px;
-    margin-top: 309px;
     font-size: 100px;
+    width: 385px;
+    height: 130px;
 }
 .about
 {
     color: aliceblue;
     text-align: left;
-    margin-left: 127px;
-    margin-top: -46px;
     font-size: 30px;
-    word-wrap: break-word;
-    padding-right: 250px;
+    width: 497px;
+    height: 174px;
+}
+.git
+{
+    width: 50px;
+    height: 50px;
+}
+.gmail
+{
+    width: 70px;
+    height: 70px;
+}
+.contacts
+{
+    position: absolute;
+    left: 80%;
+    bottom: 800px;
 }
 body
 {
