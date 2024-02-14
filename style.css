@@ -1,3 +1,9 @@
+
+.mail{
+  position: relative;
+  top: 11px;
+  padding-left: 32px;
+}
 .text {
   padding-left: 127px;
   padding-top: 150px;
@@ -10,7 +16,6 @@ a {
   padding-top: 59px;
   color: aliceblue;
   font-size: 24px;
-  justify-content: space-between;
 }
 
 .start {
@@ -26,18 +31,17 @@ a {
   width: 497px;
   height: 174px;
 }
-.git {
-  width: 50px;
-  height: 50px;
+.contacts{
+  float: right;
+  padding-right: 67px;
   position: relative;
-  top: 13px;
-  padding-left: 10px;
+  bottom:60px;
+
 }
-.gmail {
-  width: 70px;
-  height: 70px;
-  position: relative;
-  top: 25px;
+.in{
+  width: 60px;
+  height: 48px;
+  padding-left: 32px;
 }
 body {
   background-color: #111111;
