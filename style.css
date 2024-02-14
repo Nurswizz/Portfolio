@@ -1,8 +1,9 @@
 
+
+
 .mail{
   position: relative;
   top: 11px;
-  padding-left: 32px;
 }
 .text {
   padding-left: 127px;
@@ -10,12 +11,14 @@
 }
 a {
   margin-right: 49px;
+  text-decoration: none;
 }
 .header {
   padding-left: 127px;
   padding-top: 59px;
   color: aliceblue;
   font-size: 24px;
+  font-family: "Akshar", sans-serif;
 }
 
 .start {
@@ -23,9 +26,11 @@ a {
   font-size: 100px;
   width: 385px;
   height: 130px;
+  font-family: "Akshar", sans-serif;
 }
 .about {
   color: aliceblue;
+  font-family: "Akshar", sans-serif;
   text-align: left;
   font-size: 30px;
   width: 497px;
@@ -41,7 +46,6 @@ a {
 .in{
   width: 60px;
   height: 48px;
-  padding-left: 32px;
 }
 body {
   background-color: #111111;
