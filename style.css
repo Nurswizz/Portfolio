@@ -1,53 +1,44 @@
-.text
-{
-    padding-left: 127px;
-    padding-top: 150px;
+.text {
+  padding-left: 127px;
+  padding-top: 150px;
 }
-a
-{
-    margin-right: 49px;
+a {
+  margin-right: 49px;
 }
-.header
-{
-    padding-left: 127px;
-    padding-top: 59px;
-    color:aliceblue;
-    font-size: 24px;
-    justify-content: space-between;
+.header {
+  padding-left: 127px;
+  padding-top: 59px;
+  color: aliceblue;
+  font-size: 24px;
+  justify-content: space-between;
 }
 
-.start
-{
-    color: aliceblue;
-    font-size: 100px;
-    width: 385px;
-    height: 130px;
+.start {
+  color: aliceblue;
+  font-size: 100px;
+  width: 385px;
+  height: 130px;
 }
-.about
-{
-    color: aliceblue;
-    text-align: left;
-    font-size: 30px;
-    width: 497px;
-    height: 174px;
+.about {
+  color: aliceblue;
+  text-align: left;
+  font-size: 30px;
+  width: 497px;
+  height: 174px;
 }
-.git
-{
-    width: 50px;
-    height: 50px;
+.git {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 13px;
+  padding-left: 10px;
 }
-.gmail
-{
-    width: 70px;
-    height: 70px;
+.gmail {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 25px;
 }
-.contacts
-{
-    position: absolute;
-    left: 80%;
-    bottom: 800px;
-}
-body
-{
-    background-color: #111111;
+body {
+  background-color: #111111;
 }
