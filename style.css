@@ -1,3 +1,13 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); 
+  }
+}
 
 
 
@@ -12,13 +22,13 @@
 a {
   margin-right: 49px;
   text-decoration: none;
+  color:aliceblue;
 }
 .header {
   padding-left: 127px;
   padding-top: 59px;
   color: aliceblue;
   font-size: 24px;
-  font-family: "Akshar", sans-serif;
 }
 
 .start {
@@ -26,15 +36,15 @@ a {
   font-size: 100px;
   width: 385px;
   height: 130px;
-  font-family: "Akshar", sans-serif;
+  animation: fade-in 1s ease-in-out forwards;
 }
 .about {
   color: aliceblue;
-  font-family: "Akshar", sans-serif;
   text-align: left;
   font-size: 30px;
-  width: 497px;
+  width: 650px;
   height: 174px;
+  animation: fade-in 1s ease-in-out forwards; 
 }
 .contacts{
   float: right;
@@ -49,4 +59,38 @@ a {
 }
 body {
   background-color: #111111;
+  font-family: "Akshar", sans-serif;
+  color:aliceblue;
 }
+
+
+.about-container {
+  padding: 50px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content h2 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.about-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
