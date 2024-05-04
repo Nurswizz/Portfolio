@@ -87,10 +87,45 @@ body {
 .about-content ul {
   list-style-type: disc;
   padding-left: 20px;
+  font-size: 20px;
 }
 
 .about-content p {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.6;
 }
 
+.avatar
+{
+  height:500px;
+  width:auto;
+  float:right;
+  position:relative;
+  bottom:550px;
+  margin-right:250px;
+}
+
+.projects-container
+{
+  margin-left: 130px;
+  margin-top: 130px;
+}
+.project
+{
+  padding-bottom:50px;
+}
+.projects-container img
+{
+    height: 400px;
+}
+.projects-container p
+{
+  font-size: 18px;
+}
+.btn
+{
+  border: 1px solid green;
+  background-color: green;
+  font-size: 28px;
+  border-radius: 5px;
+}
